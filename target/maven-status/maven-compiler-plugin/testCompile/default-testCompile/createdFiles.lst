@@ -1,0 +1,9 @@
+com\qa\pages\ContactsPage.class
+com\qa\pages\LoginPage.class
+com\qa\pages\HomePage.class
+com\qa\stepDefinitions\LoginIntoFreeCRMSteps.class
+com\qa\pages\DealsPage.class
+com\qa\utility\BaseClass.class
+com\qa\utility\UtilClass.class
+com\qa\runner\TestRunner.class
+com\qa\pages\TasksPage.class

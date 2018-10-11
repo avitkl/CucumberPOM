@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Test Maven Suit" verbose="1" >
+<suite name="Free CRM Application" verbose="1" >
 
-  <test name="Maven Testing" >
-     
-     <packages>
-         <package name="com.qa.runner.*" />
-     </packages>
-
-    
+  <listeners>
+      <listener class-name ="com.qa.ExtentReportListener.ExtentReporterNG" />
+  </listeners>
+  <test name="Free CRM sanity Tests" >
+         
+    <classes>
+      <class name="com.qa.runner.TestRunner"/>
+    </classes>
+   
  </test>
 </suite>

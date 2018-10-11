@@ -1,11 +1,12 @@
 package com.qa.runner;
 
-import org.junit.runner.RunWith;
+//import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+//import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 @CucumberOptions(
 		features="F:\\JavaSeleniumFramework\\CucumberWithPOM\\src\\test\\java\\com\\qa\\features\\loginIntoFreeCRM.feature" //path of the feature files
 		,glue= {"com.qa.stepDefinitions"}  //path of the step definition files
@@ -16,6 +17,6 @@ import cucumber.api.junit.Cucumber;
 		//,tags= {"~@SmokeTest","~@RegressionTest","~@End2End"}
 		)
 
-public class TestRunner {
+public class TestRunner extends AbstractTestNGCucumberTests{
 
 }

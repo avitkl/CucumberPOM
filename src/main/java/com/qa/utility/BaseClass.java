@@ -19,7 +19,7 @@ public class BaseClass {
 	public BaseClass() {
 		try {
 			prop=new Properties();
-			FileInputStream fis=new FileInputStream("F:\\JavaSeleniumFramework\\CucumberWithPOM\\src\\test\\java\\com\\qa\\config\\config.properties");
+			FileInputStream fis=new FileInputStream("F:\\JavaSeleniumFramework\\CucumberWithPOM\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prop.load(fis);
 		}catch(IOException e) {
 			e.getMessage();

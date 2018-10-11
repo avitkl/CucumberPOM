@@ -48,42 +48,42 @@ formatter.match({
   "location": "LoginIntoFreeCRMSteps.user_opens_browser()"
 });
 formatter.result({
-  "duration": 8862417164,
+  "duration": 8568454257,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginIntoFreeCRMSteps.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 27413930,
+  "duration": 31327470,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginIntoFreeCRMSteps.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 4643581611,
+  "duration": 4910545925,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginIntoFreeCRMSteps.validate_home_page_tile()"
 });
 formatter.result({
-  "duration": 10988631,
+  "duration": 7356660,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginIntoFreeCRMSteps.validate_logged_in_username()"
 });
 formatter.result({
-  "duration": 84216864,
+  "duration": 83865504,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginIntoFreeCRMSteps.close_the_browser()"
 });
 formatter.result({
-  "duration": 654470686,
+  "duration": 649921825,
   "status": "passed"
 });
 });

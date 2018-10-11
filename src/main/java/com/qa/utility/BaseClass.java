@@ -17,14 +17,18 @@ public class BaseClass {
 	public static Properties prop;
 	
 	public BaseClass() {
-		try {
+		try 
+		{
 			prop=new Properties();
 			FileInputStream fis=new FileInputStream("F:\\JavaSeleniumFramework\\CucumberWithPOM\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prop.load(fis);
-		}catch(IOException e) {
+		}
+		catch(IOException e) 
+		{
 			e.getMessage();
 		}
 	}
+	
 	
 	public static void intialization() {
 		String browserName=prop.getProperty("browser");
